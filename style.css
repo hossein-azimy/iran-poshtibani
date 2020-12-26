@@ -133,6 +133,7 @@ input.search-header {
     width: 50px;
     height: 50px;
     color: #9a9a9a;
+    
 }
 .log-icon .iconify:hover{
     color: #fff;
@@ -143,4 +144,10 @@ input.search-header {
 }
 .log-icon button:focus{
     border: none;
+}
+.top-menu {
+    margin-top: 1rem;
+}
+.tooltip{
+    font-family: tanha !important;
 }
