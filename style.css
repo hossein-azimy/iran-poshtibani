@@ -29,6 +29,7 @@ header.main-header {
     background-color: #fff;
     padding: 4px 20px 7px 5px;
     border-radius: 40px/35px;
+    box-shadow: 0 0 5px #ffffffb3;
     width: auto;
     z-index: 11;
 }
@@ -83,4 +84,43 @@ span.title-info {
     margin-left: -7px;
     width: 23px;
     height: 23px;
+}
+nav.nav-top-menu ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+nav.nav-top-menu ul li:nth-last-child(1) span{
+    display: none;
+}
+nav.nav-top-menu ul li a {
+    color: #838383;
+    font-family: yekan;
+    font-size: 0.9rem;
+}
+nav.nav-top-menu ul li a span .iconify{
+    width: 20px;
+    height: 20px;
+    color: #a7a7a7;
+}
+.search-header form {
+    display: flex;
+}
+input.search-header {
+    width: 80%;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 0.5rem;
+    background: #fff;
+    font-family: 'Tanha';
+    font-size: 0.8rem;
+}
+.search-header button {
+    display: flex;
+    width: 20%;
+    border: none;
+    background: #4e9e31;
+    border-radius: 8px 0 0 8px;
+    align-items: center;
+    justify-content: center;
 }
