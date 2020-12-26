@@ -1,0 +1,39 @@
+/* font-Tanha */
+@font-face {
+    font-family: Tanha;
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
+        url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* font-Homa */
+@font-face {
+    font-family: Homa;
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot');
+    src: url('http://fonts.codearena.ir/b/homa/homa.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/b/homa/homa.woff') format('woff'),
+        url('http://fonts.codearena.ir/b/homa/homa.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* font-Tabassom */
+@font-face {
+    font-family: Tabassom;
+    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot');
+    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/b/tabassom/tabassom.woff') format('woff'),
+        url('http://fonts.codearena.ir/b/tabassom/tabassom.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* font-Titrbold */
+@font-face {
+    font-family: Titrbold;
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
+        url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
+    font-weight: normal;
+}
