@@ -21,6 +21,7 @@ header.main-header {
 }
 .title-social {
     display: flex;
+    margin-top: 6px;
 }
 .title {
     margin-right: 1%;
@@ -51,6 +52,7 @@ span.title-info {
     color: #9f9f9f;
     font-size: 23px;
     font-family: 'Tabassom';
+    padding-right: 5px;
 }
 .social {
     background: #575757;
