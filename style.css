@@ -6,6 +6,7 @@ body{
 }
 header.main-header {
     background: #454545;
+    min-height: 15rem;
 }
 .logo-mobi{
     padding: 0 0 !important;
@@ -14,7 +15,7 @@ header.main-header {
 .logo img {
     width: 9.37rem;
     border-radius: 15%;
-    margin: 10px 0;
+    margin: 13px 21px 0 0;
     box-shadow: 0 0 7px #ffffff3d;
 }
 .logo-mobi img {
@@ -153,4 +154,21 @@ input.search-header {
 }
 .tooltip{
     font-family: tanha !important;
+}
+.main-menu-nav li a {
+    margin-right: 1rem;
+    padding: 0.5rem 1.6rem;
+    border-radius: 16px 26px 20px 3px;
+    background: #818181;
+    color: #ffffff;
+    font-family: 'Tanha';
+    font-size: 1rem;
+}
+.main-menu-nav li a:hover{
+    background: #2bd66bcf;
+    color: #ffffff;
+    text-decoration: none;
+}
+.main-menu-nav li {
+    margin-top: 1.7rem;
 }
