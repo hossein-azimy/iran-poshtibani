@@ -1,17 +1,14 @@
-*{
-    direction: rtl;
-}
 
 body{
+        direction: rtl;
+
+    color: #efefef;
 }
-header.main-header {
+.main-header {
     background: #454545;
     min-height: 15rem;
 }
-.logo-mobi{
-    padding: 0 0 !important;
 
-}
 .logo img {
     width: 9.37rem;
     border-radius: 15%;
@@ -24,14 +21,12 @@ header.main-header {
 }
 .name-logo {
     margin-top: 4%;
-    text-align: start;
+    text-align: justify;
 }
-.name-logo *{
+.name-logo .title , .name-logo .hadis{
     margin-top: 5px;
 }
-.title {
-    display: flex;
-}
+
 .title-logo {
     background-color: #fff;
     padding: 0.5% 1.1% 0.9% 1.1%;
@@ -54,7 +49,7 @@ header.main-header {
     display: inline-block;
     border-radius: 40px/35px;
 }
-span.title-info {
+.title-info {
     color: #9f9f9f;
     font-size: 1.3rem;
     font-family: 'Tabassom';
@@ -90,9 +85,9 @@ span.title-info {
     height: 23px;
 }
 nav.nav-top-menu ul {
+    display: flex;
     text-decoration: none;
     list-style-type: none;
-    display: flex;
 }
 nav.nav-top-menu ul li:nth-last-child(1) span{
     display: none;
@@ -107,9 +102,7 @@ nav.nav-top-menu ul li a span .iconify{
     height: 20px;
     color: #a7a7a7;
 }
-.search-header form {
-    display: flex;
-}
+
 input.search-header {
     width: 80%;
     border: none;
@@ -120,17 +113,12 @@ input.search-header {
     font-size: 0.8rem;
 }
 .search-header button {
-    display: flex;
-    width: 20%;
+    width: 13%;
     border: none;
     background: #4e9e31;
     border-radius: 8px 0 0 8px;
-    align-items: center;
-    justify-content: center;
 }
 .log-icon {
-    display: flex;
-    justify-content: flex-end;
     margin: 12px 0 0 25px;
 }
 .log-icon .iconify {
