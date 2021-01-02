@@ -5,33 +5,32 @@ body{
 header{
     top: 0;
     background: #454545;
-    height: 80px;
+    min-height: 100px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.21);
 }
 header .ex-name span{
-font-family: Tabassom;
-font-style: normal;
+font-family: morvarid;
 font-weight: normal;
-font-size: 18px;
-line-height: 18px;
+font-size: 1rem;
 display: flex;
 align-items: center;
 text-align: right;
-padding-right: 10px;
+padding-right: 0.5%;
 color: #E7E7E7;
-margin-top: 5px;
+margin-top: 10px;
 }
 .logo-social{
     display: flex;
-    justify-content:flex-start;
-    margin-top: 5px
+    justify-content:center;
+    align-items: center;
+    margin-top: 8px;
     
 }
 .logo-social .logo{
     display: flex;
     background: #fff;
-    width: 70%;
-    padding: 10px;
+    padding: 3% 2%;
+    width: 100%;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
@@ -39,14 +38,13 @@ margin-top: 5px;
 }
 
 .logo-social .logo a{
-font-family: Tanha;
-font-style: normal;
+font-family: Titrtgebold;
 font-weight: normal;
-font-size: 1.2rem;
-display: flex;
+font-size: 1.3rem;
 text-align: center;
 color: #1A1A1A;
-text-decoration: none
+margin-left: 0.21%;
+text-decoration: none;
 }
 .logo-social .logo a:hover{
     text-decoration: none
@@ -54,31 +52,29 @@ text-decoration: none
 .logo-social .logo span{
 background: #2BD66B;
 font-family: Tahoma;
-font-style: normal;
 font-weight: normal;
-font-size: 11px;
+font-size: 0.68rem;
 display: flex;
 align-items: center;
 text-align: center;
-height: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
 color: #FFFFFF;
 border-radius: 30px;
-padding: 10px;
+padding: 1.5% 3%;
 }
 .logo-social .social{
 display: flex;
-width: 40%;
-margin-right: -25px;
-height: 40px;
+padding: 1.4% 2%;
+width: 100;
+margin-right: -4.5%;
 background: #575757;
 border-radius: 50px 0px 0px 50px;
 z-index: 1;
 }
 .logo-social .social a:nth-child(1){
-    margin-right: 15%;
+    margin-right: 8% !important;
 }
 .logo-social .social a{
     padding: 5px;
@@ -94,16 +90,20 @@ z-index: 1;
 .moshavere{
     background: #FFFFFF;
     border-radius: 30px;
-    height: 35px;
-    width: 100px;
+    padding: 8px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
-
+.moshavere a span{
+    margin-right: 8px;
+    
+}
 .moshavere a.tell-moha{
 font-family: Tanha;font-weight: bold;
-font-size: 16px;
+font-size: 1.2rem;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -114,23 +114,27 @@ color: #2BD66B;
     width: 25px;
     height: 25px;
 }
-.log a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.log{
+margin-top: 10px;
 }
 .log a .iconify{
     color: #b5b5b5;
     width: 40px;
     height: 40px;
 }
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu  li {
+    display: flex;
+}
 .nav-menu  li a{
     color: #fff !important;
     font-family: Tanha;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
+    font-size: 1rem;
     border-bottom: 3px solid #ffffff00;
 }
 .nav-menu li a:hover{
@@ -139,17 +143,26 @@ color: #2BD66B;
     text-shadow: 0px 1px 2px #2BD66B;
 
 }
-/* .nav-menu li{
-    padding: 2px px;
-} */
+
 .nav-menu li a .iconify{
     color: #2BD66B;
     width: 30px;
     height: 30px;
-
 }
-.nav-menu li a:hover span {
-    transform: translateY(5px);
+.nav-menu li a:hover .iconify{
+    transform: translateY(10px);
     transition: transform 0.2s;
-
+}
+.nav-menu button{
+    color: white !important;
+    font-family: tanha;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #2BD66B !important;
+    height: 40px;
+    box-shadow:  0px 1px 2px #2BD66B
+}
+.nav-menu button span{
+    text-align: center !important;
+    padding: 10px 0 !important;
 }

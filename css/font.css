@@ -54,3 +54,21 @@
         url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.ttf') format('truetype');
     font-weight: bold;
 }
+/* font-Titrtgebold */
+  @font-face {
+      font-family: Titrtgebold;
+      src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot');
+      src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.woff') format('woff'),
+           url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.ttf') format('truetype');
+      font-weight: normal;
+    }
+/* font-Morvarid */
+  @font-face {
+      font-family: Morvarid;
+      src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot');
+      src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/b/morvarid/morvarid.woff') format('woff'),
+           url('http://fonts.codearena.ir/b/morvarid/morvarid.ttf') format('truetype');
+      font-weight: normal;
+    }
