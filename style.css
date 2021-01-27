@@ -1575,5 +1575,39 @@ header{
     position: fixed;
     top: 0;
     background: #ffffff;
+    width: 100%;
     min-height: 100px;
+}
+.add-top{
+    padding: 0 !important;
+}
+
+
+.add-top-page-xl img{
+    width: 100%;
+}
+
+.add-top-page-sm img{
+    width: 100%;
+}
+.nav-menu-ul-ir{
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu-itm-ir{
+    font-family: tanha;
+    font-size: 1rem;
+    margin-left: 4px;
+    /* padding: 15px;     */
+}
+.nav-menu-itm-ir a{
+    padding: 8px 10px !important;
+    border-radius: 50px;
+}
+.nav-menu-itm-ir:hover a{
+    background: #F43F5E;
+    box-shadow: 0px 8px 25px rgba(244, 63, 94, 0.48);
+    color: #FFFFFF !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18), 0px 5px 6px rgba(0, 0, 0, 0.25);
+    
 }
