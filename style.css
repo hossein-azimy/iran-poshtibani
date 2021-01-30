@@ -1,3 +1,10 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
 body{
     direction: rtl;
     background: #F4F5F7;
@@ -1549,6 +1556,41 @@ btn style:==> class="btn-(Name color)-(Id color)"
     }
     
     
+
+   /* style button for color background grbg */
+    
+    /* gr-bg */
+    .btn-gr-bg {
+        background: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);        border-radius: 30px;
+        color: #FFFFFF;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18),
+            0px 5px 6px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 3px 9px 2px rgba(156, 163, 175, 0.2);
+        border: none !important;
+    }
+    
+    /* gr-bg */
+    .btn-gr-bg:hover {
+        background: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);        font-family: Tanha;
+        color: #FFFFFF;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18),
+            0px 5px 6px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 3px 9px 2px rgba(156, 163, 175, 0.4);
+        border-radius: 30px;
+    }
+    
+    /* gr-bg */
+    .btn-gr-bg:focus{
+        background: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%);        font-family: Tanha;
+        color: #FFFFFF;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18),
+            0px 5px 6px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 5px 2px rgba(156, 163, 175, 0.8);
+        border-radius: 30px;
+    }
+
+
+
     /* Style box Shadow for class name */
     
     /* shadow */
@@ -1588,6 +1630,7 @@ header{
     background: #ffffff;
     width: 100%;
     min-height: 100px;
+    border-bottom: 4px solid #22D3EE;
 }
 .add-top{
     padding: 0 !important;
@@ -1606,43 +1649,47 @@ header{
 }
 
 .nav-menu-ir{
-    margin-top: 5px;
-
+    padding: 0 !important;
 }
 .nav-menu-ul-ir{
-    width: 1000px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: inline-block;
 }
 .nav-menu-itm-ir{
+    display: inline-block;
     font-family: tanha;
     font-size: 1rem;
     font-weight: bold;
+
 }
 .nav-menu-itm-ir a{
     padding: 10px 25px !important;
     text-align: center;
-    border-radius: 50px;
     color: #262626;
+    border-radius: 10px 10px 0px 0px;
+
 }
 .nav-menu-itm-ir:hover a{
-    background: #F43F5E;
-    box-shadow: 0px 8px 25px rgba(244, 63, 94, 0.48);
+    background: #22D3EE;
+    border-radius: 10px 10px 0px 0px;
     color: #FFFFFF !important;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.18), 0px 5px 6px rgba(0, 0, 0, 0.25);
     transition: all 0.3s;
 }
 .box-search{
 text-align: center;
+
 }
 .search-input{
     padding-right: 18px !important;
-    width: 70%;
+    width: 75%;
+    color: #D4D4D4 !important;
     border-radius: 0 30px 30px 0 !important;
+    border: 1.1px solid #06B6D4;
+    box-sizing: border-box;
 }
 .search-button{
     width: 28%;
+    height: 40px;
     border-radius: 30px 0 0 30px !important;
     text-align: center;
     box-shadow: 0px 4px 8px 0px rgba(28, 37, 44, 0.08);
@@ -1656,21 +1703,28 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40px;
+    width: 140px;
 }
 .consultation-box a{
     color: #fff;
     text-align: center;
-
     font-family: tanha;
     font-size: 1rem;
     text-decoration: none;
 }
-.consultation-box  .number{
-    font-family: yekan;
-    font-size: 1rem;
+
+.consultation-box .iconify{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 8px;
 }
+
+
 .button-login button {
-    padding: 10px;
+    padding: 10px !important;
     box-shadow: 0px 10px 10px rgba(167, 139, 250, 0.28);
 }
 .button-login .iconify{
