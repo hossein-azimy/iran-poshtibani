@@ -30,41 +30,44 @@
 
             </div><!----End Row Level 1 -->
 
-            <div class="row f-flex align-items-center">
+            <div class="row d-flex align-items-center">
 
-                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10" >
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8 col-8" >
                     <a href="#" class="logo-ir">
                         <img src="image/logo-iran.png" alt="ایران پشتیبانی">
                     </a>
                 </div><!----Logo Iran Poshtibani----->                
                 
-                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+                <div class="d-none d-md-block col-xl-4 col-lg-4 col-md-5">
                     <div class="box-search">
                         <form class="d-flex">
                             <input class="search-input" type="search" placeholder="جستجو  در ایران پشتیبانی">
-                            <button class="btn btn-violet-500 search-button" type="submit">جستجو</button>
+                            <button class="btn btn-rose-500 search-button" type="submit">جستجو</button>
                         </form>
                     </div>
                 </div><!------Search Box responsive-------->
 
-                <div class="col">
-                    <div class="consultation-box btn-cyan-500">
-                        <a href="#">
-                            <span class="icon-ir">
-                                <span class="iconify" data-icon="fluent:call-connecting-20-filled" data-inline="false"></span>
-                            </span>
-                            مشاوره
-                            <span class="number">
-                                91302585-021
-                            </span>
-                        </a>
+                <div class="col-2 col-sm-2 col-md-2 d-flex justify-content-center">
+                    <div class="button-login">
+                        <button class="btn-violet-400">
+                                <span class="iconify" data-inline="false" data-icon="fa-solid:house-user"></span>
+                        </button>
                     </div>
-                </div>
+                </div><!-------Button Sing-in--------->
+
+                <div class="col-2  col-sm-2 d-md-none d-flex justify-content-center">
+                    <div class="button-menu">
+                        <button class="btn-blue-400 ">
+                            <span class="iconify" data-inline="false" data-icon="line-md:menu-unfold-left"></span>
+                        </button>
+                    </div>
+                </div><!--------Button menu modal--------Sync For Mobile------------>
+                    
 
             </div><!---End Row Level 2---->
 
-            <div class="row">
-                    <div class="col-12 d-none d-md-block nav-menu">
+            <div class="row d-flex align-items-center">
+                    <div class="d-none d-md-block col-md-8 col-lg-8 col-xl-8 nav-menu">
                     
                         <div class="menu-xl">
                             
@@ -94,6 +97,21 @@
                         </div>
     
                     </div><!---Navbar Menu Header -- Sync For Desktop------->
+
+                    <div class="d-none d-md-block col-md-2 ">
+                        <div class="consultation-box btn-red-400">
+                            <a href="#">
+                                <span class="icon-ir">
+                                    <span class="iconify" data-icon="fluent:call-connecting-20-filled" data-inline="false"></span>
+                                </span>
+                                مشاوره
+                                <span class="number">
+                                    91302585-021
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
             </div><!---End Row Level 3---->
 
         </div>
@@ -108,6 +126,7 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!------ Script iconify------->
     <script>
+        
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         });
