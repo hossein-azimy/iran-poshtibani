@@ -8,6 +8,7 @@
 body{
     direction: rtl;
     background: #F4F5F7;
+    font-family: tanha;
 }
 
 /* General Style*/
@@ -1743,4 +1744,10 @@ text-align: center;
     width: 30px;
     height: 30px;
     /* box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25); */
+}
+.footer-menu-close{
+    width: 100%;
+    margin: 10px !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
 }
