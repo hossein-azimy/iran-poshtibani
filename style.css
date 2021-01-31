@@ -1632,6 +1632,7 @@ header{
     width: 100%;
     min-height: 100px;
     border-bottom: 4px solid #22D3EE;
+    z-index: 10;
 }
 .add-top{
     padding: 0 !important;
@@ -1794,16 +1795,16 @@ text-align: center;
 .titr-abote-design h3{
 width: 153px;
 height: 130px;
-font-family: B Titr TG E;
+font-family: vazir;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
-line-height: 2;
+line-height: 1.6;
 display: flex;
 align-items: center;
 text-align: center;
-margin-right: 15px !important;
-margin-top: 6px !important;
+margin-right: 65px !important;
+margin-top: 29px !important;
 /* true gray / 700 */
 
 color: #404040;
@@ -1815,7 +1816,37 @@ text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 .bg-itm-menu-design {
     background: url(image/bg-itm-main-1-design.png) no-repeat;
     background-position-x: left;
-    background-repeat: no-repeat;
     background-size: 70%;
     position: relative;
+}
+.titr-abote-design span{
+    font-family: vazir;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-right: 96px !important;
+margin-top: 29px !important;
+/* red / 500 */
+
+color: #EF4444;
+text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.abote-design span.ekhtesasi{
+    font-family: vazir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 28px !important;
+    margin-top: -15px !important;
+    /* cyan / 700 */
+    
+    color: #0E7490;
 }
