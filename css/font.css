@@ -7,68 +7,12 @@
         url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
     font-weight: normal;
 }
-
-/* font-Homa */
+/* font-Vazir */
 @font-face {
-    font-family: Homa;
-    src: url('http://fonts.codearena.ir/b/homa/homa.eot');
-    src: url('http://fonts.codearena.ir/b/homa/homa.eot?#iefix') format('embedded-opentype'),
-        url('http://fonts.codearena.ir/b/homa/homa.woff') format('woff'),
-        url('http://fonts.codearena.ir/b/homa/homa.ttf') format('truetype');
+    font-family: Vazir;
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.ttf') format('truetype');
     font-weight: normal;
-}
-
-/* font-Tabassom */
-@font-face {
-    font-family: Tabassom;
-    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot');
-    src: url('http://fonts.codearena.ir/b/tabassom/tabassom.eot?#iefix') format('embedded-opentype'),
-        url('http://fonts.codearena.ir/b/tabassom/tabassom.woff') format('woff'),
-        url('http://fonts.codearena.ir/b/tabassom/tabassom.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/* font-Titrbold */
-@font-face {
-    font-family: Titrbold;
-    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
-    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
-        url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
-        url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Yekan';
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot');
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff') format('woff'),
-        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.ttf') format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Yekan';
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot');
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.woff') format('woff'),
-        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-/* font-Titrtgebold */
-  @font-face {
-      font-family: Titrtgebold;
-      src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot');
-      src: url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.eot?#iefix') format('embedded-opentype'),
-           url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.woff') format('woff'),
-           url('http://fonts.codearena.ir/b/titrtgebold/titrtgebold.ttf') format('truetype');
-      font-weight: normal;
-    }
-/* font-Morvarid */
-  @font-face {
-      font-family: Morvarid;
-      src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot');
-      src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot?#iefix') format('embedded-opentype'),
-           url('http://fonts.codearena.ir/b/morvarid/morvarid.woff') format('woff'),
-           url('http://fonts.codearena.ir/b/morvarid/morvarid.ttf') format('truetype');
-      font-weight: normal;
-    }
+  }
