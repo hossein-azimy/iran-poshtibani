@@ -7,7 +7,7 @@
 
 body{
     direction: rtl;
-    background: #F4F5F7;
+    background: #fff;
     font-family: tanha;
 }
 
@@ -1725,7 +1725,7 @@ text-align: center;
 
 
 .button-login button {
-    padding: 10px !important;
+    padding: 8px !important;
     box-shadow: 0px 10px 10px rgba(8, 145, 178, 0.28);
 }
 .button-login .iconify{
@@ -1737,7 +1737,7 @@ text-align: center;
     margin-right: 10px !important;
 }
 .button-menu button {
-    padding: 10px !important;
+    padding: 8px !important;
     box-shadow: 0px 10px 10px rgba(115, 115, 115, 0.28);
 }
 .button-menu .iconify{
@@ -1787,4 +1787,35 @@ text-align: center;
     font-size: larger;
     font-weight: bold;
     margin: 5px 28px !important;
+}
+.main-content{
+    margin-top: 28% !important;
+}
+.titr-abote-design h3{
+width: 153px;
+height: 130px;
+font-family: B Titr TG E;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 2;
+display: flex;
+align-items: center;
+text-align: center;
+margin-right: 15px !important;
+margin-top: 6px !important;
+/* true gray / 700 */
+
+color: #404040;
+text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.pic-design-web img{
+    width: 100%;
+}
+.bg-itm-menu-design {
+    background: url(image/bg-itm-main-1-design.png) no-repeat;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: relative;
 }
