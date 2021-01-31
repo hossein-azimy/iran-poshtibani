@@ -1757,6 +1757,18 @@ text-align: center;
 .modal-dialog{
     margin: 1.75rem auto !important;
 }
+.modal-content{
+    width: 100% !important;
+}
+.modal-header{
+    padding: 1rem 1rem !important;
+}
+.modal-body{
+    padding: 1rem !important;
+}
+.modal-footer{
+    padding: .75rem !important;
+}
 .modal-menu{
     width: 100%;
 }
