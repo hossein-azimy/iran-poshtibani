@@ -1751,3 +1751,31 @@ text-align: center;
     padding: 8px !important;
     border-radius: 10px !important;
 }
+.modal-menu{
+    width: 100%;
+}
+.posh-pic-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.posh-pic-menu img{
+   border-radius: 20px; 
+   width: 95%;
+
+}
+.posh-pic-menu a:hover img{
+}
+.menu-itm-modalposh{
+    margin-top: 10px !important;
+}
+.poshtiban-menu{
+    margin-top: 10px !important;
+}
+.poshtiban-menu h2{
+    font-size: 22px;
+    color: #717171;
+    font-weight: bold;
+    margin-right: 5px !important;
+    font-family: titr;
+}
