@@ -1850,3 +1850,32 @@ text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
     
     color: #0E7490;
 }
+.Buttons {
+    margin-top: 10px  !important;
+    display: flex;
+    justify-content: space-around;
+
+}
+.Buttons button{
+    padding: 8px 15px !important;
+    color: #FFFFFF;
+    font-family: tanha;
+    font-size: 17px;
+    /* text shadow */
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.21), 0px 2px 4px rgba(0, 0, 0, 0.74);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn-sefaresh{
+    box-shadow: 0px 10px 10px rgba(16, 185, 129, 0.28);
+border-radius: 50px;
+}
+.btn-moshavere{
+    box-shadow: 0px 10px 10px rgba(139, 92, 246, 0.28);
+    border-radius: 50px;
+}
+.btn-etlaat{
+    box-shadow: 0px 10px 10px rgba(244, 63, 94, 0.28);
+border-radius: 50px;
+}
