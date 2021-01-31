@@ -1759,6 +1759,8 @@ text-align: center;
 }
 .modal-content{
     width: 100% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
 .modal-header{
     padding: 1rem 1rem !important;
