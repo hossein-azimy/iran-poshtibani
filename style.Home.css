@@ -1,5 +1,6 @@
 body{
     direction: rtl;
+    background: #FFFFFF;
 }
 header.header-1{
     background: #FFFFFF;
@@ -37,7 +38,7 @@ header.header-1 a.consul{
     background: #3FA925;
     /* shadow-green button */
     box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.23), 0px 10px 10px rgba(63, 169, 37, 0.28), inset 1px 2px 3px rgba(255, 255, 255, 0.4), inset 0px -2px 2px rgba(0, 0, 0, 0.13);
-    border-radius: 20px;
+    border-radius: 60px;
     text-decoration: none;
     font-family: Tanha;
     font-size: 20px;
@@ -48,7 +49,7 @@ header.header-1 a.consul{
 }
 header.header-1 .sing-in{
     padding: 16px 13px;
-    border-radius: 50%;
+    border-radius: 60px;
     background: #0088CC;
     box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.34), 0px 10px 10px rgba(0, 136, 204, 0.28), inset 1px 2px 3px rgba(255, 255, 255, 0.28), inset -1px -2px 3px rgba(0, 0, 0, 0.28);
 }
@@ -62,4 +63,90 @@ header.header-1 .lev-2row .nav-menu li{
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/*      style main> itm1 WEB DSIGN     */
+
+.itm1{
+    background: url(image/bg-itm1.png) no-repeat 100%;
+    background-size: 100%;
+    background-position: bottom;
+    height: 736px;
+}
+.itm1 h1{
+    font-family: Tanha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 51px;
+    text-align: right;
+    color: #444444;
+    margin-top: 31px;
+    margin-right: 71px;
+}
+.itm1 p{
+    font-family: Tanha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #808080;
+    margin-top: 50px;
+    margin-right: 49px;
+}
+
+.itm1 h3{
+    font-family: Tanha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #6A6A6A;
+    margin-top: 70px;
+    margin-right: 29px;
+}
+.itm1 img{
+    margin-top: 165px;
+    margin-right: 50px;
+}
+.itm1-pic svg{
+    margin-right: -51px;
+}
+.button-itm1{
+    margin-top: 20px
+}
+.btn-xl-ete{
+    background: rgba(0, 0, 0, 0.0);
+    border: 2px dashed #D0D0D0 !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    font-family: Tanha;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.55);
+    padding: 10px 33px;
+    margin-right: 51px;
+    margin-left: 58px;
+    
+}
+.btn-xl-sef{
+    background: rgba(0, 0, 0, 0.0);
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    font-family: Tanha;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.55);
+    padding: 16px 25px;
 }
