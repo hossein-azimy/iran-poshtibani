@@ -1,6 +1,6 @@
 body{
     direction: rtl;
-    background: #FFFFFF;
+    background: #853167;
 }
 header.header-1{
     background: #FFFFFF;
@@ -70,10 +70,10 @@ header.header-1 .lev-2row .nav-menu li{
 /*      style main> itm1 WEB DSIGN     */
 
 .itm1{
-    background: url(image/bg-itm1.png) no-repeat 100%;
-    background-size: 100%;
+    background: #fff url(image/bg-itm1.png) no-repeat 100%;
+    background-size: 101%;
     background-position: bottom;
-    height: 736px;
+    height: 730px;
 }
 .itm1 h1{
     font-family: Tanha;
