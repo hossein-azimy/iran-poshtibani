@@ -156,7 +156,7 @@ header.header-1 .lev-2row .nav-menu li{
     margin-right: 260px;
 }
 .itm2{
-    background: #fff url(image/bg-itm2.svg) top;
+    background: #fff url(image/bg-itm2.svg) top right;
     background-size: 100%;
     height: 491px;
 
@@ -201,24 +201,24 @@ header.header-1 .lev-2row .nav-menu li{
 .img-ser-grafic{
     width: 100%;
     height: 170px;
-    background: url(image/grafic-design.svg) no-repeat center;
+    /* background: url(image/grafic-design.svg) no-repeat center; */
 }
 .img-ser-codeweb{
     width: 100%;
     height: 170px;
-    background: url(image/code-web.svg) no-repeat center;
+    /* background: url(image/code-web.svg) no-repeat center; */
 
 }
 .img-ser-posh{
     width: 100%;
     height: 170px;
-    background: url(image/support.svg) no-repeat center;
+    /* background: url(image/support.svg) no-repeat center; */
 
 }
 .img-ser-robot{
     width: 100%;
     height: 170px;
-    background: url(image/robot-telegram.svg) no-repeat center;
+    /* background: url(image/robot-telegram.svg) no-repeat center; */
 
 }
 .title-itm2{
@@ -228,4 +228,51 @@ header.header-1 .lev-2row .nav-menu li{
     text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.22), 0px 4px 4px rgba(0, 0, 0, 0.14);
     margin-right: 583px;
     margin-top: 25px
+}
+
+.for-constration{
+    width: 1170px;
+    height: 211px;
+    background: url(image/title-const.svg) no-repeat 60% 55%;
+    border: 3px solid #853167;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.18);
+    border-radius: 20px;
+    z-index: 5;
+}
+.for-constration h2{
+    font-family: Tanha;
+    margin-right: 28px;
+    margin-top: 35px;
+    font-size: 45px;
+    line-height: 59px;
+    color: #ffffff;
+    text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.22), 0px 4px 4px rgba(0, 0, 0, 0.14);
+    transform: rotate(-6.62deg);
+}
+.itm3{
+    background: #fff;
+}
+.item img{
+    width: 100%;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.itm4{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img{
+    width: 100%;
+}
+.slider-ir{
+    width: 1170px;
+    margin: 20px 0;
+    border-radius: 20px;
+    overflow: hidden;
 }
