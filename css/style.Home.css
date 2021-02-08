@@ -257,7 +257,10 @@ header.header-1 .lev-2row .nav-menu li{
 .item img{
     width: 100%;
     mix-blend-mode: luminosity;
-    opacity: 0.7;
+    opacity: 0.5;
+}
+a.poje:hover {
+    transform: scale(1.1);
 }
 .item{
     width: 150px;
@@ -307,8 +310,9 @@ a.p-soft{
     margin-right: 5px;
 
 }
-a .p-soft :hover{
-    transform: scale(1.1);}
+/* a.p-soft:hover{
+    transform: scale(1.1);
+} */
 .p-p{
     background: #EBC34D;
     border-radius: 12px;
