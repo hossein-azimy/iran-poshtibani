@@ -250,11 +250,14 @@ header.header-1 .lev-2row .nav-menu li{
     text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.22), 0px 4px 4px rgba(0, 0, 0, 0.14);
     transform: rotate(-6.62deg);
 }
+
 .itm3{
     background: #fff;
 }
 .item img{
     width: 100%;
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
 }
 .item{
     width: 150px;
@@ -305,6 +308,8 @@ a.p-soft{
     margin-right: 5px;
 
 }
+a .p-soft :hover{
+    transform: scale(1.1);}
 .p-p{
     background: #EBC34D;
     border-radius: 12px;
