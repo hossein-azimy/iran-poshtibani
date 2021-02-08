@@ -1,6 +1,6 @@
 body{
     direction: rtl;
-    background: #853167;
+    background: #ffffff;
 }
 header.header-1{
     background: #FFFFFF;
@@ -275,4 +275,67 @@ header.header-1 .lev-2row .nav-menu li{
     margin: 20px 0;
     border-radius: 20px;
     overflow: hidden;
+}
+.box-softwer{
+    width: 300px;
+    height: 1006px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+.t-softwer{
+    background: #853167;
+    border-radius: 20px 20px 0 0;
+}
+.t-softwer h4{
+    padding: 15px 0;
+    font-family: Tanha;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+a.p-soft{
+    width: 290px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.p-p{
+    background: #EBC34D;
+    border-radius: 12px;
+    font-family: Tanha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 4px 15px;
+}
+.p-soft img{
+    width: 100%;
+}
+.t-p-en{
+    font-family: Tanha;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #B3B3B3;
+
+}
+.t-p-per{
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #5E5E5E;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
 }
