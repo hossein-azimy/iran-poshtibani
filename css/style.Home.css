@@ -281,7 +281,7 @@ a.poje:hover {
     width: 100%;
 }
 .slider-ir{
-    width: 1170px;
+    width: 100%;
     margin: 20px 0;
     border-radius: 20px;
     overflow: hidden;
@@ -646,4 +646,22 @@ a.p-soft{
     color: #FFFFFF;
     padding: 10px 15px;
     margin-left: 15px;
+}
+.addition-home{
+    margin-top: 15px;
+}
+.addition-home .add-home-img-hover{
+    display: none;
+    
+}
+.addition-home a:hover img.add-home-img{
+    display: none;
+}
+.addition-home a:hover img.add-home-img-hover{
+    display: block;
+
+}
+.addition-home a.add-home-item img{
+    border-radius: 25px;
+    width: 100%;
 }
