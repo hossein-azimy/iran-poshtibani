@@ -1,0 +1,61 @@
+body{
+    background: #853167;
+    direction: rtl;
+    padding: 0 !important;
+}
+.container.bg-white {
+    position: absolute;
+    height: 702px;
+    top: 10%;
+    right: 15%;
+    border-radius: 0 0 0 100px;    
+}
+.conestraction-xl-header{
+    position: relative;
+    background:  url(../image/bg-conest-header.svg) no-repeat top;
+    background-size: 100%;
+    height: 325px;
+    z-index: 6;
+    width: 1320px;
+    right: -12px;
+    top: 0px;
+}
+.title img{
+    position: relative;
+    right: 104px;
+    top: 37px;
+
+}
+.side-text-cons{
+    position: relative;
+    background: url(../image/bg-side-constraction.svg) no-repeat right;
+    background-size: 100%;
+    width: 100%;
+    height: 645px;
+    z-index: 2;
+    top: -263px;
+    right: -12px;
+}
+.side-text-cons{
+    z-index: 2;
+}
+.side-text-cons img{
+    margin-top: 210px;
+    margin-right: 25px;
+}
+.mobile img {
+    width: 100%;
+    position: relative;
+    z-index: 8;
+    transform: translate(0, -250px);
+}
+.box-insta  a:hover img{
+    transform: scale(1.3);
+}
+.box-insta img {
+    position: relative;
+    top: -453px;
+    z-index: 7;
+    width: 65%;
+    right: 54px;
+}
